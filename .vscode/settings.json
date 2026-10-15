@@ -1,14 +1,20 @@
 {
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 1000,
-    "git.enabled": true,
-    "git.decorations.enabled": true,
-    "explorer.decorations.colors": true,
-    "explorer.decorations.badges": true,
-    "workbench.colorCustomizations": {
-        "gitDecoration.modifiedResourceForeground": "#FFAA00",
-        "gitDecoration.untrackedResourceForeground": "#00CC66",
-        "gitDecoration.deletedResourceForeground": "#FF4444"
-    }
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "git.enabled": true,
+  "git.decorations.enabled": true,
+  "explorer.decorations.colors": true,
+  "explorer.decorations.badges": true,
+  "workbench.colorCustomizations": {
+    "gitDecoration.modifiedResourceForeground": "#FFAA00",
+    "gitDecoration.untrackedResourceForeground": "#00CC66",
+    "gitDecoration.deletedResourceForeground": "#FF4444"
+  },
+  "[JSON]": {
+    "editor.tabSize": 2
+  },
+  "[jsonc]": {
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false
+  }
 }
-
